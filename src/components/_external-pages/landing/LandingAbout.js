@@ -35,6 +35,7 @@ export default function LandingHugeAbout() {
             autoplay={true}
             loop
             start={1}
+            end={29}
             width={isDesktop ? '900px' : '100%'}
             height={isDesktop ? "500px" : '200px'}
             style={{
@@ -49,7 +50,7 @@ export default function LandingHugeAbout() {
             <b> <i>222 Black Faces </i> </b> is a digital art collection of black faces made from March 2019 to December 2021 by Uzoma Dunkwu. They were shared on his social media through his journey of growth as a self-taught artist in the animation industry from Nigeria. All artworks in this collection took 500+ hours to create and have a combined reach of over 7 million on Instagram, LinkedIn and Twitter. Also, each NFT in this collection grants access to special giveaway contents after purchase.
           </Typography>
 
-          <Button id="mint" href="https://opensea.io/collection/222blackfaces/" target="_blank" sx={{
+          <Button id="mint" href="https://opensea.io/collection/222-black-faces/" target="_blank" sx={{
             backgroundColor: '#dc3d30',
             color: 'white',
             fontFamily: 'Arvo',

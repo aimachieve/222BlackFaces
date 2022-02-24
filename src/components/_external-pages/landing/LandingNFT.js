@@ -75,7 +75,7 @@ export default function LandingNFT() {
             <ButtonAnimate>
               <Button
                 variant='outlined'
-                href="https://opensea.io/collection/222blackfaces/"
+                href="https://opensea.io/collection/222-black-faces/"
                 sx={{
                   marginTop: '30px',
                   marginBottom: '30px',
@@ -212,7 +212,7 @@ export default function LandingNFT() {
             }}>
               JOIN OUR DISCORD FOR UPDATES
             </Typography>
-            <Button href="https://discord.gg/J6TbUcXU32" target="_blank" sx={{
+            <Button href="https://discord.gg/qvpeMmTPyV" target="_blank" sx={{
               backgroundColor: '#dc3d30',
               color: 'white',
               fontFamily: 'Arvo',

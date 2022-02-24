@@ -55,7 +55,7 @@ export default function LandingMintNFT() {
 
     const _totalSupply = await getTotalSupply()
     setTotalSupply(_totalSupply)
-
+    
     const _balance = await getCurrentWalletBalance(result.address)
     console.log("wallet balance:", _balance)
     setBalance(_balance)
@@ -63,7 +63,8 @@ export default function LandingMintNFT() {
 
   const handleChangeAmount = (flag) => {
     if (flag === "plus") {
-      setAmount(amount + 1)
+      if (amount < 20 )
+        setAmount(amount + 1)
     } else {
       if (amount > 0)
         setAmount(amount - 1)
@@ -75,7 +76,7 @@ export default function LandingMintNFT() {
 
     if (chainId !== '0x1') {
       setStatus('😥 Error: Please select the Ethereum main net!')
-    } else if (balance < 0.01 * amount) {
+    } else if (balance < 1 * amount) {
       setStatus(`😥 Error: Insufficent funds! Current balance: ${balance} ETH, total minting cost(${amount} NFTs): ${1 * amount} ETH !`)
     } else {
       let cost = 1000000000000000000;
@@ -84,6 +85,7 @@ export default function LandingMintNFT() {
       let totalGasLimit = String(gasLimit * amount);
 
       const _222BlackFaceContract = await getContract()
+      console.log("_222BlackFaceContract=>", _222BlackFaceContract)
       
       setClaimingNft(true);
       setStatus("NFT(s) minting now...");

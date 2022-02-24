@@ -41,7 +41,7 @@ export default function LandingRoadmap() {
               }}>
                 The highlight of this drop is the Chiefsquare community to be built with 20% of the sales.
               </Typography>
-              <Button href="https://discord.gg/J6TbUcXU32" target="_blank" sx={{
+              <Button href="https://discord.gg/qvpeMmTPyV" target="_blank" sx={{
                 backgroundColor: '#dc3d30',
                 color: 'white',
                 fontFamily: 'Arvo',

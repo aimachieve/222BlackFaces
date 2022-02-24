@@ -41,7 +41,7 @@ export default function LandingDarkMode() {
 
             <Stack direction={'row'} mt={4} mb={4} justifyContent={'flex-end'} alignItems={'center'}>
               <Link
-                href="https://opensea.io/collection/222blackfaces/"
+                href="https://opensea.io/collection/222-black-faces/"
                 target="_blank"
               >
                 <img src="/assets/opensea.svg" alt="opensea" style={{
@@ -51,7 +51,7 @@ export default function LandingDarkMode() {
                 }} />
               </Link>
               <Link
-                href="https://discord.gg/J6TbUcXU32"
+                href="https://discord.gg/qvpeMmTPyV"
                 target="_blank"
               >
                 <img src="/assets/discord.png" alt="discord" style={{

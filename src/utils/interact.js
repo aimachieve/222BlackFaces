@@ -18,7 +18,7 @@ export const getWeb3 = async () => {
 export const getContract = async () => {
   const web3 = await getWeb3()
   const contract = new web3.eth.Contract(contractABI, contractAddress);
-  console.log("contract=>", contract)
+  // console.log("contract=>", contract)
   return contract
 }
 

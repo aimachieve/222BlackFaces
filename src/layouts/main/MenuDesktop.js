@@ -246,7 +246,7 @@ export default function MenuDesktop({ isOffset, isHome, navConfig }) {
         />
       ))}
       <Link
-        href="https://opensea.io/collection/222blackfaces/"
+        href="https://opensea.io/collection/222-black-faces/"
         target="_blank"
       >
         <img src="/assets/opensea.svg" alt="opensea" style={{
@@ -256,7 +256,7 @@ export default function MenuDesktop({ isOffset, isHome, navConfig }) {
         }} />
       </Link>
       <Link
-        href="https://discord.gg/J6TbUcXU32"
+        href="https://discord.gg/qvpeMmTPyV"
         target="_blank"
       >
         <img src="/assets/discord.png" alt="discord" style={{
@@ -270,7 +270,7 @@ export default function MenuDesktop({ isOffset, isHome, navConfig }) {
         target="_blank"
       >
         <img src="/assets/twitter.png" alt="twitter" style={{
-          width: '20px',
+          width: '25px',
           height: '20px'
         }} />
       </Link>

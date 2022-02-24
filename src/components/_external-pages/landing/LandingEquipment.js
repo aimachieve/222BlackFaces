@@ -60,7 +60,7 @@ export default function LandingHugeAbout() {
               }}>
                 JOIN OUR DISCORD FOR UPDATES
               </Typography>
-              <Button href="https://discord.gg/J6TbUcXU32" target="_blank" sx={{
+              <Button href="https://discord.gg/qvpeMmTPyV" target="_blank" sx={{
                 backgroundColor: '#dc3d30',
                 color: 'white',
                 fontFamily: 'Arvo',
